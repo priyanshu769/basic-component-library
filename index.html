@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Basic Component Library</title>
+</head>
+<body>
+    <!-- Description -->
+    <h1>This is basic component library.</h1>
+    <p>It contains different types of all the basic things that a website has like header, body and footer.</p>
+    <!-- All Components -->
+    <hr>
+
+    <h2>@typography</h2>
+
+    <h1>This is the biggest heading.</h1>
+    <h2>This is the second biggest.</h2>
+    <p>This will be our normal text. This is free flowing and will wrap at the end like a paragraph.</p>
+    <p>This will have our <strong>bold</strong> text.</p>
+    <small>This is the smallest one, which may help as at some places.</small>
+
+    <hr>
+
+    <h2>@containers</h2>
+    <h3>left aligned container</h3>
+    <div class="container">This is a left aligned container. All the texts and items will be aligned to left in this container.</div>
+
+    <h3>center aligned container</h3>
+    <div class="center-container">This is a center aligned container. All the texts and items will be aligned in the center in this container.</div>
+
+    <hr>
+
+    <h2>@links</h2>
+    <!-- links in the forms of buttons -->
+    <a class="primary-link" href="#">Primary</a>
+    <a class="secondary-link" href="#">Secondary</a>
+    <!-- links between text, eg. paragraph -->
+    <a class="para-link" href="#">Primary Para Link</a>
+    <a class="para-link-two" href="#">Secondary Para Link</a>
+    <!-- Normal Links -->
+    <a class="link" href="#">Just link</a>
+
+    <hr>
+
+    <h2>@list</h2>
+
+    <h3>unordered list</h3>
+    <p>list without bullets</p>
+
+    <ul class="list-non-bullet">
+        <li>Item 1</li>
+        <li>Item 2</li>
+        <li>Item 3</li>
+    </ul>
+
+    <h3>inline list</h3>
+    <p>list in single line</p>
+
+    <ul class="list-non-bullet">
+        <li class="list-item-inline">Item 1</li>
+        <li class="list-item-inline">Item 2</li>
+        <li class="list-item-inline">Item 3</li>
+    </ul>
+
+    <hr>
+
+    <h2>@navbar</h2>
+    
+    <nav class="normal-nav">
+        <div class="nav-brand">Logo Img or Name</div>
+            <ul class="list-non-bullet tabs">
+                <li class="list-item-inline">
+                    <a class="link" href="#">Home</a>
+                </li>
+                <li class="list-item-inline">
+                    <a class="link" href="#">About</a>
+                </li>
+                <li class="list-item-inline">
+                    <a class="link" href="#">Work</a>
+                </li>
+            </ul>
+    </nav>
+    <br>
+    <nav class="fixed-nav ">
+        <div class="nav-brand">Logo Img or Name</div>
+            <ul class="list-non-bullet tabs">
+                <li class="list-item-inline">
+                    <a class="link" href="#">1</a>
+                </li>
+                <li class="list-item-inline">
+                    <a class="link" href="#">2</a>
+                </li>
+                <li class="list-item-inline">
+                    <a class="link" href="#">3</a>
+                </li>
+            </ul>
+    </nav>
+
+    <hr>
+
+    <h2>@header</h2>
+
+    <header class="header">
+        <img class="hero-img" src="black-hero.jpg" alt="">
+        <h1 class="hero-heading">This is a website for.</h1>
+    </header>
+    <hr>
+    <!-- header on img -->
+    <header class="header header-img">
+        <h1 class="hero-heading">This is a website for.</h1>
+        <div class="header-btn">
+            <a class="primary-link" href="#">Hero Button</a>
+        </div>
+    </header>
+
+    <hr>
+
+    <h2>@footer</h2>
+
+    <footer class="footer">
+        <div class="footer-heading">Thanks for visiting.</div>
+        <ul class="list-non-bullet">
+            <li class="list-item-inline">
+                <a class="link" href="https://twitter.com/priyanshu769">Twitter</a>
+            </li>
+            <li class="list-item-inline">
+                <a class="link" href="https://github.com/priyanshu769">Github</a>
+            </li>
+        </ul>
+    </footer>
+
+    <script src="main.js"></script>
+</body>
+</html>
